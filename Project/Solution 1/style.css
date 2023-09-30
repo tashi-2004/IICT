@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.434)),url(images/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+   
+    padding: 10px 40px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 50px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(59, 59, 153);
+}
+
+.content{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+.content h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.content p{
+    line-height: 28px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+iframe{
+    margin: 100px 500px;
+}
+
+
+.testimonials{
+    width: 100%;
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.838);
+    padding: 40px;
+    margin: 0 10px;
+}
+
+.col-3 img{
+    width: 100px;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+form{
+    width: 380px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    background-color: #fff;
+}
+
+form h1{
+    margin: auto;
+}
+
+form input{
+    padding: 13px 10px;
+    font-size: 15px;
+}
+
+form button{
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #cfd0d5;
+    color: rgba(9, 8, 8, 0.633);
+    padding: 14px ;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+footer ul li{
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
